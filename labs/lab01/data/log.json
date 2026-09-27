@@ -1,0 +1,68 @@
+[
+    {
+        "event": "login",
+        "user": "admin",
+        "result": "success",
+        "timestamp": "2026-09-27 20:07:48",
+        "args": [
+            "admin",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin",
+        "result": "failure",
+        "timestamp": "2026-09-27 20:07:48",
+        "args": [
+            "admin",
+            "WrongPassword12345!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin",
+        "result": "success",
+        "timestamp": "2026-09-27 20:07:58",
+        "args": [
+            "admin",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin",
+        "result": "failure",
+        "timestamp": "2026-09-27 20:07:58",
+        "args": [
+            "admin",
+            "WrongPassword12345!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin",
+        "result": "success",
+        "timestamp": "2026-09-27 20:08:31",
+        "args": [
+            "admin",
+            "SuperSecurePass123!"
+        ],
+        "kwargs": {}
+    },
+    {
+        "event": "login",
+        "user": "admin",
+        "result": "failure",
+        "timestamp": "2026-09-27 20:08:31",
+        "args": [
+            "admin",
+            "WrongPassword12345!"
+        ],
+        "kwargs": {}
+    }
+]
