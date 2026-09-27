@@ -64,12 +64,10 @@ def check_password_strength(
 
 
 def run_task1() -> None:
-    """Запуск виконання Завдання 1."""
     print("=" * 60)
     print(f"ЗАВДАННЯ 1 | Студент: {STUDENT_NAME} | Варіант: {VARIANT_NUMBER}")
     print("=" * 60)
 
-    # Генеруємо 3 випадкові індекси та додаємо дублікати
     random.seed(42)
     duplicated_passwords = passwords.copy()
     random_indices = random.sample(range(len(passwords)), 3)
